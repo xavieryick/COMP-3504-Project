@@ -1,0 +1,698 @@
+<?php
+
+namespace Database\Seeders;
+
+use Illuminate\Database\Seeder;
+
+class AlbumsTableSeeder extends Seeder
+{
+
+    /**
+     * Auto generated seed file
+     *
+     * @return void
+     */
+    public function run()
+    {
+        
+
+        \DB::table('albums')->delete();
+        
+        \DB::table('albums')->insert(array (
+            0 => 
+            array (
+                'id' => 1,
+                'spotify_id' => '0bZqxtPvQ35jw0emFQp5OI',
+                'name' => 'Switching Vocals, Vol. 4',
+                'release_date' => '2020-03-14',
+                'album_type' => 'album',
+                'total_tracks' => 12,
+                'image_url' => 'https://i.scdn.co/image/ab67616d0000b273d434922de5fbee65d007c249',
+                'created_at' => '2025-10-24 21:45:11',
+                'updated_at' => '2025-10-24 21:45:11',
+            ),
+            1 => 
+            array (
+                'id' => 2,
+                'spotify_id' => '6nudndBzCXJ0qKk334KTH1',
+                'name' => 'Switching Vocals, Vol. 2',
+                'release_date' => '2019-04-05',
+                'album_type' => 'album',
+                'total_tracks' => 13,
+                'image_url' => 'https://i.scdn.co/image/ab67616d0000b273e5a922863341fca68695d7bd',
+                'created_at' => '2025-10-24 21:49:39',
+                'updated_at' => '2025-10-24 21:49:39',
+            ),
+            2 => 
+            array (
+                'id' => 3,
+                'spotify_id' => '2rkm7SlO58qW4Ky3wU1I5G',
+                'name' => 'Electric',
+                'release_date' => '2020-02-08',
+                'album_type' => 'single',
+                'total_tracks' => 1,
+                'image_url' => 'https://i.scdn.co/image/ab67616d0000b273a346c788f66366ea809399a7',
+                'created_at' => '2025-10-24 21:49:40',
+                'updated_at' => '2025-10-24 21:49:40',
+            ),
+            3 => 
+            array (
+                'id' => 4,
+                'spotify_id' => '0lfJXMUYwm33AGoic97OC4',
+                'name' => 'Nightcore',
+                'release_date' => '2020-10-11',
+                'album_type' => 'single',
+                'total_tracks' => 4,
+                'image_url' => 'https://i.scdn.co/image/ab67616d0000b273ab179ba3eb219b5e8b0dc931',
+                'created_at' => '2025-10-24 21:49:40',
+                'updated_at' => '2025-10-24 21:49:40',
+            ),
+            4 => 
+            array (
+                'id' => 5,
+                'spotify_id' => '6orYPw5YUNhnP0eH5UUqtt',
+                'name' => 'Best of Nightcore',
+                'release_date' => '2019-08-29',
+                'album_type' => 'compilation',
+                'total_tracks' => 21,
+                'image_url' => 'https://i.scdn.co/image/ab67616d0000b273c0be3ccac068f1dc2b3c0494',
+                'created_at' => '2025-10-24 21:49:41',
+                'updated_at' => '2025-10-24 21:49:41',
+            ),
+            5 => 
+            array (
+                'id' => 6,
+                'spotify_id' => '123E6KM0a8UtFU9M67yzou',
+                'name' => 'Anima Libera',
+                'release_date' => '2020-04-25',
+                'album_type' => 'single',
+                'total_tracks' => 1,
+                'image_url' => 'https://i.scdn.co/image/ab67616d0000b273449140c46c8b44a3a8aedee5',
+                'created_at' => '2025-10-24 21:49:41',
+                'updated_at' => '2025-10-24 21:49:41',
+            ),
+            6 => 
+            array (
+                'id' => 7,
+                'spotify_id' => '0jUX1D2F7c2GTBRO9VP4QV',
+                'name' => 'This Little Girl',
+                'release_date' => '2020-04-16',
+                'album_type' => 'single',
+                'total_tracks' => 1,
+                'image_url' => 'https://i.scdn.co/image/ab67616d0000b27319c2420027a15764c940c392',
+                'created_at' => '2025-10-24 21:49:42',
+                'updated_at' => '2025-10-24 21:49:42',
+            ),
+            7 => 
+            array (
+                'id' => 8,
+                'spotify_id' => '4sblGxH4UlfmtypJhsoCvX',
+                'name' => 'In My Mind',
+                'release_date' => '2020-12-10',
+                'album_type' => 'single',
+                'total_tracks' => 1,
+                'image_url' => 'https://i.scdn.co/image/ab67616d0000b273a037baa6dda87a75edf335ab',
+                'created_at' => '2025-10-24 21:49:42',
+                'updated_at' => '2025-10-24 21:49:42',
+            ),
+            8 => 
+            array (
+                'id' => 9,
+                'spotify_id' => '4cg3lHoYjTEYQbsadgOFqf',
+                'name' => 'Goes Acoustic, Vol. 1',
+                'release_date' => '2019-04-27',
+                'album_type' => 'album',
+                'total_tracks' => 15,
+                'image_url' => 'https://i.scdn.co/image/ab67616d0000b27358dde444dfaeaf89df08f084',
+                'created_at' => '2025-10-24 21:49:43',
+                'updated_at' => '2025-10-24 21:49:43',
+            ),
+            9 => 
+            array (
+                'id' => 10,
+                'spotify_id' => '1dRmXxp5KhtcPnki8RoY6G',
+            'name' => 'Moonlight Shadow (Full Reloaded 2018)',
+                'release_date' => '2018-04-20',
+                'album_type' => 'single',
+                'total_tracks' => 2,
+                'image_url' => 'https://i.scdn.co/image/ab67616d0000b273b55b9c2e5d20e20f17256a40',
+                'created_at' => '2025-10-24 21:49:44',
+                'updated_at' => '2025-10-24 21:49:44',
+            ),
+            10 => 
+            array (
+                'id' => 11,
+                'spotify_id' => '6lY93v2iy9yT7iR7tY4dlf',
+                'name' => 'Animals',
+                'release_date' => '2020-09-10',
+                'album_type' => 'single',
+                'total_tracks' => 1,
+                'image_url' => 'https://i.scdn.co/image/ab67616d0000b273e711b7ece651036934236d6d',
+                'created_at' => '2025-10-24 21:49:45',
+                'updated_at' => '2025-10-24 21:49:45',
+            ),
+            11 => 
+            array (
+                'id' => 12,
+                'spotify_id' => '2jMBnYwN02hsnGgrmYDmyh',
+                'name' => 'I Dream',
+                'release_date' => '2020-02-16',
+                'album_type' => 'single',
+                'total_tracks' => 1,
+                'image_url' => 'https://i.scdn.co/image/ab67616d0000b273125dbef5f8e41034fb8cb7d1',
+                'created_at' => '2025-10-24 21:49:46',
+                'updated_at' => '2025-10-24 21:49:46',
+            ),
+            12 => 
+            array (
+                'id' => 13,
+                'spotify_id' => '5XpTXm3AusXlEOMUUmkDBg',
+                'name' => 'Switching Vocals, Vol. 1',
+                'release_date' => '2019-03-29',
+                'album_type' => 'album',
+                'total_tracks' => 10,
+                'image_url' => 'https://i.scdn.co/image/ab67616d0000b273353559fc86dc255ec9f260b4',
+                'created_at' => '2025-10-24 21:49:46',
+                'updated_at' => '2025-10-24 21:49:46',
+            ),
+            13 => 
+            array (
+                'id' => 14,
+                'spotify_id' => '34oKbXQlT2VEC15R58TQrx',
+                'name' => 'Into The Nightcore, Vol. 6',
+                'release_date' => '2020-02-04',
+                'album_type' => 'album',
+                'total_tracks' => 12,
+                'image_url' => 'https://i.scdn.co/image/ab67616d0000b273871fb780515385905c4dcd43',
+                'created_at' => '2025-10-24 21:49:47',
+                'updated_at' => '2025-10-24 21:49:47',
+            ),
+            14 => 
+            array (
+                'id' => 15,
+                'spotify_id' => '6AD7tg6IhLk49DlbW1s3CQ',
+                'name' => 'So Am I',
+                'release_date' => '2020-09-02',
+                'album_type' => 'single',
+                'total_tracks' => 1,
+                'image_url' => 'https://i.scdn.co/image/ab67616d0000b273147b961610485a2ce64dd4e9',
+                'created_at' => '2025-10-24 21:49:47',
+                'updated_at' => '2025-10-24 21:49:47',
+            ),
+            15 => 
+            array (
+                'id' => 16,
+                'spotify_id' => '2gPQXYbuBfRXFbkzCMTOvB',
+            'name' => 'Meet Me on the Battlefield (Svrcina Nightcore Remix)',
+                'release_date' => '2017-01-24',
+                'album_type' => 'single',
+                'total_tracks' => 1,
+                'image_url' => 'https://i.scdn.co/image/ab67616d0000b27387a1a78192ffea6896da36e0',
+                'created_at' => '2025-10-24 21:49:48',
+                'updated_at' => '2025-10-24 21:49:48',
+            ),
+            16 => 
+            array (
+                'id' => 17,
+                'spotify_id' => '3GU8BzFEAdFSRjc8jZkL3S',
+            'name' => 'La La Land (Original Motion Picture Soundtrack)',
+                'release_date' => '2016-12-09',
+                'album_type' => 'album',
+                'total_tracks' => 15,
+                'image_url' => 'https://i.scdn.co/image/ab67616d0000b2730bdf4dd39843ad48c5b66bc4',
+                'created_at' => '2025-10-24 21:49:49',
+                'updated_at' => '2025-10-24 21:49:49',
+            ),
+            17 => 
+            array (
+                'id' => 18,
+                'spotify_id' => '4CKBpgzwIL7NPJrOvltCHj',
+                'name' => 'Your Lie in April - Medley',
+                'release_date' => '2015-09-08',
+                'album_type' => 'single',
+                'total_tracks' => 1,
+                'image_url' => 'https://i.scdn.co/image/ab67616d0000b273480b9f49ae3df26572a952a8',
+                'created_at' => '2025-10-24 21:49:52',
+                'updated_at' => '2025-10-24 21:49:52',
+            ),
+            18 => 
+            array (
+                'id' => 19,
+                'spotify_id' => '3jQ7eqotwovipeZ3j3rMqu',
+            'name' => 'Cuphead (Original Soundtrack)',
+                'release_date' => '2017-11-01',
+                'album_type' => 'album',
+                'total_tracks' => 56,
+                'image_url' => 'https://i.scdn.co/image/ab67616d0000b27305ded1194cfefa65af276a4e',
+                'created_at' => '2025-10-24 21:49:53',
+                'updated_at' => '2025-10-24 21:49:53',
+            ),
+            19 => 
+            array (
+                'id' => 20,
+                'spotify_id' => '5OgAdJnU464hjUfpWRWuAe',
+            'name' => 'Crazy for You (Original London Cast Recording)',
+                'release_date' => '1993-11-09',
+                'album_type' => 'album',
+                'total_tracks' => 21,
+                'image_url' => 'https://i.scdn.co/image/ab67616d0000b2732fa3d2cd1d7f8b6fef371726',
+                'created_at' => '2025-10-24 21:49:53',
+                'updated_at' => '2025-10-24 21:49:53',
+            ),
+            20 => 
+            array (
+                'id' => 21,
+                'spotify_id' => '5jqcHmsGNEv32GecCSRGgu',
+                'name' => 'AIN\'T NOTHIN\' LIKE A FUNKY BEAT',
+                'release_date' => '2018-11-01',
+                'album_type' => 'single',
+                'total_tracks' => 1,
+                'image_url' => 'https://i.scdn.co/image/ab67616d0000b273ee2caed5f0aabad2195c44ff',
+                'created_at' => '2025-10-24 21:49:55',
+                'updated_at' => '2025-10-24 21:49:55',
+            ),
+            21 => 
+            array (
+                'id' => 22,
+                'spotify_id' => '2M2Ae2SvZe3fmzUtlVOV5Z',
+                'name' => 'UNDERTALE Soundtrack',
+                'release_date' => '2015-09-15',
+                'album_type' => 'album',
+                'total_tracks' => 101,
+                'image_url' => 'https://i.scdn.co/image/ab67616d0000b27324edb22d068eb245a924b7f2',
+                'created_at' => '2025-10-24 21:49:58',
+                'updated_at' => '2025-10-24 21:49:58',
+            ),
+            22 => 
+            array (
+                'id' => 23,
+                'spotify_id' => '7u6GRzXeKWjR5QPLoMwi9T',
+                'name' => 'Year 6',
+                'release_date' => '2018-10-02',
+                'album_type' => 'album',
+                'total_tracks' => 25,
+                'image_url' => 'https://i.scdn.co/image/ab67616d0000b2734fe249252cb0048d40d19d8e',
+                'created_at' => '2025-10-24 21:49:58',
+                'updated_at' => '2025-10-24 21:49:58',
+            ),
+            23 => 
+            array (
+                'id' => 24,
+                'spotify_id' => '54WtwJssaYYyVvPfEM5FnJ',
+                'name' => 'Nostalgia IV',
+                'release_date' => '2018-04-24',
+                'album_type' => 'album',
+                'total_tracks' => 12,
+                'image_url' => 'https://i.scdn.co/image/ab67616d0000b27390276f38ccc4a9932ced818b',
+                'created_at' => '2025-10-24 21:49:59',
+                'updated_at' => '2025-10-24 21:49:59',
+            ),
+            24 => 
+            array (
+                'id' => 25,
+                'spotify_id' => '7qh8DVO9RfimvugDpsnYmS',
+                'name' => 'Year 5',
+                'release_date' => '2017-10-19',
+                'album_type' => 'album',
+                'total_tracks' => 30,
+                'image_url' => 'https://i.scdn.co/image/ab67616d0000b2737c4a5b49e13ac829e39c920a',
+                'created_at' => '2025-10-24 21:50:00',
+                'updated_at' => '2025-10-24 21:50:00',
+            ),
+            25 => 
+            array (
+                'id' => 26,
+                'spotify_id' => '1bN96Kr8zH7088gjyZf2gm',
+                'name' => 'Jump Up, Super Star!',
+                'release_date' => '2017-10-27',
+                'album_type' => 'single',
+                'total_tracks' => 1,
+                'image_url' => 'https://i.scdn.co/image/ab67616d0000b273ae279b1543df871976737795',
+                'created_at' => '2025-10-24 21:50:02',
+                'updated_at' => '2025-10-24 21:50:02',
+            ),
+            26 => 
+            array (
+                'id' => 27,
+                'spotify_id' => '2sZPZYDTv4OmYtLn43N3jA',
+                'name' => 'Star Boi',
+                'release_date' => '2019-11-23',
+                'album_type' => 'single',
+                'total_tracks' => 6,
+                'image_url' => 'https://i.scdn.co/image/ab67616d0000b27309ff3272a95b3aae9c73f2e2',
+                'created_at' => '2025-10-24 21:50:05',
+                'updated_at' => '2025-10-24 21:50:05',
+            ),
+            27 => 
+            array (
+                'id' => 28,
+                'spotify_id' => '3jypzeWN8K5pkwfZ2ZBfHd',
+                'name' => 'Money Walk',
+                'release_date' => '2019-08-23',
+                'album_type' => 'single',
+                'total_tracks' => 1,
+                'image_url' => 'https://i.scdn.co/image/ab67616d0000b2736437b6f557c701f6435dd255',
+                'created_at' => '2025-10-24 21:50:06',
+                'updated_at' => '2025-10-24 21:50:06',
+            ),
+            28 => 
+            array (
+                'id' => 29,
+                'spotify_id' => '2C7xFImuRK9LX1uz3qRO9N',
+            'name' => 'Lil Mama (feat. Renni Rucci)',
+                'release_date' => '2019-11-15',
+                'album_type' => 'single',
+                'total_tracks' => 1,
+                'image_url' => 'https://i.scdn.co/image/ab67616d0000b273dfac5ba13c359bd8c2c2b8d8',
+                'created_at' => '2025-10-24 21:50:07',
+                'updated_at' => '2025-10-24 21:50:07',
+            ),
+            29 => 
+            array (
+                'id' => 30,
+                'spotify_id' => '3OZM9fLHosO7xtBqlfKDX3',
+                'name' => 'Watch Me',
+                'release_date' => '2019-11-29',
+                'album_type' => 'single',
+                'total_tracks' => 1,
+                'image_url' => 'https://i.scdn.co/image/ab67616d0000b273161da6b776717adf0055c9ed',
+                'created_at' => '2025-10-24 21:50:08',
+                'updated_at' => '2025-10-24 21:50:08',
+            ),
+            30 => 
+            array (
+                'id' => 31,
+                'spotify_id' => '1Am6MXSmnQapaoogXtWgEt',
+                'name' => 'Water',
+                'release_date' => '2019-02-18',
+                'album_type' => 'single',
+                'total_tracks' => 1,
+                'image_url' => 'https://i.scdn.co/image/ab67616d0000b2738cdb6f9abde5ecfa0885fe17',
+                'created_at' => '2025-10-24 21:50:09',
+                'updated_at' => '2025-10-24 21:50:09',
+            ),
+            31 => 
+            array (
+                'id' => 32,
+                'spotify_id' => '3aIu83B4PifffnjWQ5RzoU',
+                'name' => 'Just Woke Up',
+                'release_date' => '2018-11-19',
+                'album_type' => 'single',
+                'total_tracks' => 1,
+                'image_url' => 'https://i.scdn.co/image/ab67616d0000b273f70fc2ca5f3769d40273c8be',
+                'created_at' => '2025-10-24 21:50:10',
+                'updated_at' => '2025-10-24 21:50:10',
+            ),
+            32 => 
+            array (
+                'id' => 33,
+                'spotify_id' => '4slnxzxMT9z4LpmXB0Dl6r',
+                'name' => 'Don\'t Like Me',
+                'release_date' => '2019-11-16',
+                'album_type' => 'single',
+                'total_tracks' => 2,
+                'image_url' => 'https://i.scdn.co/image/ab67616d0000b2731e378c2217f5ab8596308bf7',
+                'created_at' => '2025-10-24 21:50:10',
+                'updated_at' => '2025-10-24 21:50:10',
+            ),
+            33 => 
+            array (
+                'id' => 34,
+                'spotify_id' => '7w8G7VVjwamcNuLx0RtSy4',
+                'name' => 'Pull up Boosie',
+                'release_date' => '2019-11-15',
+                'album_type' => 'single',
+                'total_tracks' => 1,
+                'image_url' => 'https://i.scdn.co/image/ab67616d0000b2732ba39433447b2f6757da7f15',
+                'created_at' => '2025-10-24 21:50:11',
+                'updated_at' => '2025-10-24 21:50:11',
+            ),
+            34 => 
+            array (
+                'id' => 35,
+                'spotify_id' => '0fu6eqfz53BjXzwiDGGy8x',
+                'name' => 'Can\'t Clone Me',
+                'release_date' => '2019-09-13',
+                'album_type' => 'single',
+                'total_tracks' => 1,
+                'image_url' => 'https://i.scdn.co/image/ab67616d0000b2731efc5d5a4a74c91e42ccb6c0',
+                'created_at' => '2025-10-24 21:50:12',
+                'updated_at' => '2025-10-24 21:50:12',
+            ),
+            35 => 
+            array (
+                'id' => 36,
+                'spotify_id' => '4HuacV7XrCfI8mlaxOcga9',
+                'name' => 'OCTOBER 34TH',
+                'release_date' => '2019-11-08',
+                'album_type' => 'album',
+                'total_tracks' => 7,
+                'image_url' => 'https://i.scdn.co/image/ab67616d0000b273508ef2264f83d0f91384a715',
+                'created_at' => '2025-10-24 21:50:12',
+                'updated_at' => '2025-10-24 21:50:12',
+            ),
+            36 => 
+            array (
+                'id' => 37,
+                'spotify_id' => '0O1PJ0t69iTO5yWrIeIga0',
+                'name' => 'Baby On Baby',
+                'release_date' => '2019-03-01',
+                'album_type' => 'album',
+                'total_tracks' => 13,
+                'image_url' => 'https://i.scdn.co/image/ab67616d0000b27374d72ebd51dd5781d5f83ffd',
+                'created_at' => '2025-10-24 21:50:13',
+                'updated_at' => '2025-10-24 21:50:13',
+            ),
+            37 => 
+            array (
+                'id' => 38,
+                'spotify_id' => '4fIiU2A8hCUzXmTVKvO5XN',
+                'name' => 'Baby Joker',
+                'release_date' => '2019-07-18',
+                'album_type' => 'single',
+                'total_tracks' => 1,
+                'image_url' => 'https://i.scdn.co/image/ab67616d0000b273671f5680f02487cce4782e92',
+                'created_at' => '2025-10-24 21:50:13',
+                'updated_at' => '2025-10-24 21:50:13',
+            ),
+            38 => 
+            array (
+                'id' => 39,
+                'spotify_id' => '4IRiXE5NROxknUSAUSjMoO',
+                'name' => '7',
+                'release_date' => '2019-06-21',
+                'album_type' => 'album',
+                'total_tracks' => 8,
+                'image_url' => 'https://i.scdn.co/image/ab67616d0000b2736239187793c9e492e687db01',
+                'created_at' => '2025-10-24 21:50:14',
+                'updated_at' => '2025-10-24 21:50:14',
+            ),
+            39 => 
+            array (
+                'id' => 40,
+                'spotify_id' => '00HZxSA1sOS9T3nA950sg4',
+                'name' => 'The Best In The World Pack',
+                'release_date' => '2019-06-15',
+                'album_type' => 'single',
+                'total_tracks' => 2,
+                'image_url' => 'https://i.scdn.co/image/ab67616d0000b2733f3b653b0a7b9e889a712c3d',
+                'created_at' => '2025-10-24 21:50:15',
+                'updated_at' => '2025-10-24 21:50:15',
+            ),
+            40 => 
+            array (
+                'id' => 41,
+                'spotify_id' => '4Mz9ZCE83IiaVC9ejMqxky',
+                'name' => 'Ransom',
+                'release_date' => '2019-06-04',
+                'album_type' => 'single',
+                'total_tracks' => 1,
+                'image_url' => 'https://i.scdn.co/image/ab67616d0000b273422113b080aa8e2effae4fa2',
+                'created_at' => '2025-10-24 21:50:16',
+                'updated_at' => '2025-10-24 21:50:16',
+            ),
+            41 => 
+            array (
+                'id' => 42,
+                'spotify_id' => '6p9Y1K9yu3ojyS8fBJXUnp',
+            'name' => 'The London (feat. J. Cole & Travis Scott)',
+                'release_date' => '2019-05-23',
+                'album_type' => 'single',
+                'total_tracks' => 1,
+                'image_url' => 'https://i.scdn.co/image/ab67616d0000b273137c2d3150118e7157800c5b',
+                'created_at' => '2025-10-24 21:50:16',
+                'updated_at' => '2025-10-24 21:50:16',
+            ),
+            42 => 
+            array (
+                'id' => 43,
+                'spotify_id' => '26ztFK3E69j5THJQdyxC5w',
+                'name' => 'Die A Legend',
+                'release_date' => '2019-06-07',
+                'album_type' => 'album',
+                'total_tracks' => 14,
+                'image_url' => 'https://i.scdn.co/image/ab67616d0000b273ae8b07ecdcf7aadefe00264f',
+                'created_at' => '2025-10-24 21:50:18',
+                'updated_at' => '2025-10-24 21:50:18',
+            ),
+            43 => 
+            array (
+                'id' => 44,
+                'spotify_id' => '2WrNHOba5u6P9S9xEboaUy',
+                'name' => 'Perfect Ten',
+                'release_date' => '2019-06-28',
+                'album_type' => 'album',
+                'total_tracks' => 10,
+                'image_url' => 'https://i.scdn.co/image/ab67616d0000b27393b1e96fad758869d0974162',
+                'created_at' => '2025-10-24 21:50:19',
+                'updated_at' => '2025-10-24 21:50:19',
+            ),
+            44 => 
+            array (
+                'id' => 45,
+                'spotify_id' => '49K82qcZN4u109e6Zw8io1',
+                'name' => 'Sanguine Paradise',
+                'release_date' => '2019-04-09',
+                'album_type' => 'single',
+                'total_tracks' => 1,
+                'image_url' => 'https://i.scdn.co/image/ab67616d0000b27334bf16d92ae11f8d3eadf295',
+                'created_at' => '2025-10-24 21:50:20',
+                'updated_at' => '2025-10-24 21:50:20',
+            ),
+            45 => 
+            array (
+                'id' => 46,
+                'spotify_id' => '2n3quCZ0anEa46j2IveacI',
+                'name' => 'Revenge Of The Dreamers III',
+                'release_date' => '2019-07-05',
+                'album_type' => 'album',
+                'total_tracks' => 18,
+                'image_url' => 'https://i.scdn.co/image/ab67616d0000b273c0ae820e3b64854de4642101',
+                'created_at' => '2025-10-24 21:50:20',
+                'updated_at' => '2025-10-24 21:50:20',
+            ),
+            46 => 
+            array (
+                'id' => 47,
+                'spotify_id' => '6WytX96LU58H2AV4IVQBvj',
+                'name' => 'head first',
+                'release_date' => '2019-05-17',
+                'album_type' => 'single',
+                'total_tracks' => 1,
+                'image_url' => 'https://i.scdn.co/image/ab67616d0000b2733d80cc0afef5bf4cda483349',
+                'created_at' => '2025-10-24 21:50:22',
+                'updated_at' => '2025-10-24 21:50:22',
+            ),
+            47 => 
+            array (
+                'id' => 48,
+                'spotify_id' => '2uDTi1PlpSpvAv7IRAoAEU',
+                'name' => 'HIGHEST IN THE ROOM',
+                'release_date' => '2019-10-04',
+                'album_type' => 'single',
+                'total_tracks' => 1,
+                'image_url' => 'https://i.scdn.co/image/ab67616d0000b273e42b5fea4ac4c3d6328b622b',
+                'created_at' => '2025-10-24 21:50:26',
+                'updated_at' => '2025-10-24 21:50:26',
+            ),
+            48 => 
+            array (
+                'id' => 49,
+                'spotify_id' => '1NsTSXjVNE7XmZ8PmyW0wl',
+                'name' => 'KIRK',
+                'release_date' => '2019-09-27',
+                'album_type' => 'album',
+                'total_tracks' => 13,
+                'image_url' => 'https://i.scdn.co/image/ab67616d0000b273f2b94b2fda4f08836d6371ba',
+                'created_at' => '2025-10-24 21:50:29',
+                'updated_at' => '2025-10-24 21:50:29',
+            ),
+            49 => 
+            array (
+                'id' => 50,
+                'spotify_id' => '1F1JJHhqMo5DETJkesqGpG',
+                'name' => 'Herstory in the Making',
+                'release_date' => '2019-09-27',
+                'album_type' => 'album',
+                'total_tracks' => 21,
+                'image_url' => 'https://i.scdn.co/image/ab67616d0000b2734fc7642b4b9dfc5088c45880',
+                'created_at' => '2025-10-24 21:50:29',
+                'updated_at' => '2025-10-24 21:50:29',
+            ),
+            50 => 
+            array (
+                'id' => 51,
+                'spotify_id' => '3KziODx7ieQTgYCVrS6nBv',
+                'name' => 'Hollywood\'s Bleeding',
+                'release_date' => '2019-09-06',
+                'album_type' => 'album',
+                'total_tracks' => 17,
+                'image_url' => 'https://i.scdn.co/image/ab67616d0000b273bbf401121625a31ba1a6a4bb',
+                'created_at' => '2025-10-24 21:50:30',
+                'updated_at' => '2025-10-24 21:50:30',
+            ),
+            51 => 
+            array (
+                'id' => 52,
+                'spotify_id' => '4YEhTvqsptB5D1n095QL5r',
+                'name' => '!',
+                'release_date' => '2019-08-09',
+                'album_type' => 'album',
+                'total_tracks' => 14,
+                'image_url' => 'https://i.scdn.co/image/ab67616d0000b273561a15a7c78ad1c24565a453',
+                'created_at' => '2025-10-24 21:50:30',
+                'updated_at' => '2025-10-24 21:50:30',
+            ),
+            52 => 
+            array (
+                'id' => 53,
+                'spotify_id' => '6eA4QpYSIaIqb30yNtAlQQ',
+                'name' => 'Life of Betrayal',
+                'release_date' => '2018-08-03',
+                'album_type' => 'album',
+                'total_tracks' => 13,
+                'image_url' => 'https://i.scdn.co/image/ab67616d0000b2732579e199c19b1c49a6bf0891',
+                'created_at' => '2025-10-24 21:50:31',
+                'updated_at' => '2025-10-24 21:50:31',
+            ),
+            53 => 
+            array (
+                'id' => 54,
+                'spotify_id' => '3KLWdSgaIy4viebepDQ63t',
+                'name' => 'Life B4 Fame',
+                'release_date' => '2018-05-29',
+                'album_type' => 'album',
+                'total_tracks' => 12,
+                'image_url' => 'https://i.scdn.co/image/ab67616d0000b273a93ef0f4179a91146bf9a791',
+                'created_at' => '2025-10-24 21:50:32',
+                'updated_at' => '2025-10-24 21:50:32',
+            ),
+            54 => 
+            array (
+                'id' => 55,
+                'spotify_id' => '3IYaSINx79h33UY51uylld',
+                'name' => 'Life After Fame',
+                'release_date' => '2018-09-24',
+                'album_type' => 'album',
+                'total_tracks' => 12,
+                'image_url' => 'https://i.scdn.co/image/ab67616d0000b2734427c640c9b3cb06e02890c4',
+                'created_at' => '2025-10-24 21:50:34',
+                'updated_at' => '2025-10-24 21:50:34',
+            ),
+            55 => 
+            array (
+                'id' => 56,
+                'spotify_id' => '7naY6j4wcgUxfHB98G79CW',
+                'name' => 'I AM YOU',
+                'release_date' => '2018-08-03',
+                'album_type' => 'album',
+                'total_tracks' => 15,
+                'image_url' => 'https://i.scdn.co/image/ab67616d0000b2730f5397dc6aa91374897182e0',
+                'created_at' => '2025-10-24 21:50:34',
+                'updated_at' => '2025-10-24 21:50:34',
+            ),
+        ));
+        
+        
+    }
+}
