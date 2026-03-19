@@ -1,3 +1,6 @@
+# COMP-3504-Project
+* Creation date: Fall 2025 (Year 4)
+
 ### Communication channel:
 https://discord.gg/UCVpZKRjWD
 
