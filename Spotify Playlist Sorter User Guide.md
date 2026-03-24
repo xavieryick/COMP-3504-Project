@@ -148,7 +148,7 @@ Using the Spotify Playlist Sorter is easy\! Here are some steps that you can fol
 8. You’re done!
 
 ## How can you report an issue or bug?
-If you come across an issue or bug, you can report it to us at https://github.com/MRU-F2025-COMP3504/3504-term-project-spotify-playlist-sorter/issues
+If you come across an issue or bug, you can report it to us at https://github.com/xavieryick/Programming-IV-Final-Project/issues
 * Ideally, this template below would be great as it allows us to know exactly what happens and where. If you can’t fill in a section, you can just put “N/A” or “Unknown”.  
 * When filling out the template, please add as much detail as you can. This would be greatly appreciated, and makes it easier for us to pinpoint what went wrong.  
 * Attachments are not necessary, but would be very helpful.
