@@ -27,10 +27,10 @@ https://drive.google.com/drive/folders/0ABiLUBbjGoZKUk9PVA
 - [Github Actions](https://github.com/features/actions) CI/CD system
 
 ### To Build:
-Please check the [user guide](https://github.com/MRU-F2025-COMP3504/3504-term-project-spotify-playlist-sorter/blob/feedback/Spotify%20Playlist%20Sorter%20User%20Guide.md) for more information regarding how to build the software.
+Please check the [user guide]((https://github.com/xavieryick/Programming-IV-Final-Project/blob/main/Spotify%20Playlist%20Sorter%20User%20Guide.md)) for more information regarding how to build the software.
 
 ### To Test:
-Please check the [developer guide](https://github.com/MRU-F2025-COMP3504/3504-term-project-spotify-playlist-sorter/blob/feedback/DeveloperGuide.md) for more information regarding how to test the software.
+Please check the [developer guide]((https://github.com/xavieryick/Programming-IV-Final-Project/blob/main/DeveloperGuide.md)) for more information regarding how to test the software.
 
 #### Our Tests:
 * **AccessTest.php** - Confirms that our tests are able to access ApplyFilters.php
